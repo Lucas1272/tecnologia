@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <form action="#">
+        <div class="esquerdo">
+            <img src="cursos-ingenieria-tecnologia.jpg" alt="">
+        </div>
+
+        <div class="direito">
+            <h1>Venha fazer curso de TI</h1>
+            <label for="primeiro-nome"> Nome:</label>
+            <input type="text" name="primeiro-nome" id="primeiro-nome" required minlength="3" maxlength="30" placeholder="Nome completo">
+
+            <label for="email--usuario">E-mail</label>
+            <input type="email" name="email--usuario" id="email--usuario" required placeholder="email@email.com">
+
+            <div class="p1">
+                <label for="data-nascimento">Data Nascimento <input type="date" name="Data Nascimento" id="DataNascimento" required></label>
+
+                <label for="whatsapp">whatsapp <input type="text" name="whatsapp" id="whatsapp" required placeholder="99999 9999" maxlength="9"></label>
+            </div>
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="Cidade" id="Cidade" required >
+            <label for="selecione seu curso">Selecione seu curso:</label>
+            <select name="" id="">
+                <option value="..." selected disabled hidden>Selecione seu curso:</option>
+                <option value="j1">Frond end</option>
+                <option value="j2">Informática</option>
+                <option value="j3">TI</option>
+                <option value="j4">Marketing Digital</option>
+                <option value="j5">Design gráfico</option>
+                <option value="j6">Ingles</option>
+                <option value="j7">Adiministração</option>
+            </select>
+
+            <div class="b1">
+                <button type="submit" class="b2">✅Casdastrar</button>
+                <button type="submit" class="b3">❌Limpar</button>
+            </div>
+            
+        </div>
+    </form>
+</body>
+</html>
